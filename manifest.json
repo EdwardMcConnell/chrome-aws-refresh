@@ -1,0 +1,10 @@
+{
+  "name" : "Pin AWS monitoring refresh button",
+  "version" : "0.1",
+  "description" : "Pins the AWS monitoring refresh button, duh",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://console.aws.amazon.com/*"]
+  }],
+  "manifest_version": 2
+}
